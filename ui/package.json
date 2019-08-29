@@ -1,0 +1,22 @@
+{
+    "name": "ui",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "react": "16.9.0",
+        "react-dom": "16.9.0"
+    },
+    "devDependencies": {
+        "@bazel/bazel": "latest",
+        "@bazel/ibazel": "latest",
+        "@bazel/buildifier": "latest",
+        "@bazel/typescript": "latest",
+        "@types/react": "16.9.0",
+        "@types/react-dom": "16.9.0",
+        "typescript": "~3.4.0"
+    },
+    "scripts": {
+        "build": "bazel build //...",
+        "test": "bazel test //..."
+    }
+}
